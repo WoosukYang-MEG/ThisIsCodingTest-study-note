@@ -1,4 +1,4 @@
-# 예제 4-2 시각
+# 예제 4-1.2 시각
 import time
 
 n = int(input())
