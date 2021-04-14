@@ -31,6 +31,7 @@ while mapping_queue:
         if maze_map[ny][nx] == 0:
             continue
 
+        # 처음 가보는 곳만 기록 갱신
         if maze_map[ny][nx] == 1:
             maze_map[ny][nx] = maze_map[y][x] + 1
             mapping_queue.append((ny, nx))
